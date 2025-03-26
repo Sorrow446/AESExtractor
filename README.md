@@ -30,4 +30,4 @@ Options:
 ```
 
 ## Thank you
-Thank you to GHFear for their [c++ extractor AESDumpster](https://github.com/GHFear/AESDumpster) that this extractor's based on.
+Thank you to GHFear for [their c++ extractor AESDumpster](https://github.com/GHFear/AESDumpster) that this extractor's based on.
