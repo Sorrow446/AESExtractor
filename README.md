@@ -1,5 +1,5 @@
 # AESExtractor
-AES key dumper for Unreal Engine written in Rust, based on GHFear's AESDumpster.
+AES key extractor for Unreal Engine written in Rust, based on GHFear's AESDumpster.
 ![](https://i.imgur.com/kUuAj7O.png)    
 
 ## Usage
@@ -20,7 +20,7 @@ Arguments:
   [DROPPED_IN_PATH]
 
 Options:
-  -i, --in-path <IN_PATH>  Input path of UE game binary.
+  -i, --in-path <IN_PATH>  Input path of game binary.
       --json               Suppress all other prints and write JSON to stdout. Exit code 0 = OK.
       --no-colour          Disable printing in colour.
       --entropy <ENTROPY>  Minimum key entropy float (default: 3.1).
