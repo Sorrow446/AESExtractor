@@ -1,9 +1,10 @@
 # AESExtractor
 AES key extractor for Unreal Engine written in Rust, based on GHFear's AESDumpster.
-![](https://i.imgur.com/kUuAj7O.png)    
+![](https://i.imgur.com/kUuAj7O.png)
 
 ## Usage
-[Pre-compiled binaries](https://github.com/Sorrow446/AESExtractor/releases)
+[Pre-compiled binaries](https://github.com/Sorrow446/AESExtractor/releases)    
+You can expect up to 4x the speed of something like AESDumpster if you have a multi-core CPU thanks to the fast implementation of the pattern searching.
 
 ### Drag and drop
 Simply drag and drop your shipping binary onto the extractor.
@@ -27,3 +28,6 @@ Options:
   -h, --help               Print help
   -V, --version            Print version
 ```
+
+## Thank you
+Thank you to GHFear for their [c++ extractor AESDumpster](https://github.com/GHFear/AESDumpster) that this extractor's based on.
