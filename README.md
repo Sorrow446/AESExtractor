@@ -25,7 +25,7 @@ Options:
   -i, --in-path <IN_PATH>  Input path of game binary.
       --json               Suppress all other prints and write JSON to stdout. Exit code 0 = OK.
       --no-colour          Disable printing in colour.
-      --entropy <ENTROPY>  Minimum key entropy float (default: 3.1).
+      --entropy <ENTROPY>  Minimum key entropy float (default: 3).
   -h, --help               Print help
   -V, --version            Print version
 ```
